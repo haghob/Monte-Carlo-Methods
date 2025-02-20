@@ -7,5 +7,8 @@ def inv(u):
         z = 3*u-1
     return (z)
 import random
+import matplotlib.pyplot as plt
 n= random.uniform(1,0)
 print(inv(n))
+plt.hist(n)
+plt.show()
